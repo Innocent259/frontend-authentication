@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
