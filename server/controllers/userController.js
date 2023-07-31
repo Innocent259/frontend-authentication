@@ -77,7 +77,9 @@ router.post("/logout", async (req, res) => {
     };
 
     res.cookie("user", null, options);
-    res.status(200).json("You've logged out");
+    res.status(200).json({
+      success: true,
+    });
   } catch (err) {
     return res.status(400).json(err);
   }
